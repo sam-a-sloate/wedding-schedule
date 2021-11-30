@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Schedule from "./Schedule";
 import { useSpring, a } from "@react-spring/web";
+import map from './map.jpeg'
 
 function App() {
   // Flipped indicates that the day is the wedding and not the rehearsal dinner
@@ -24,6 +25,7 @@ function App() {
           ]}
           date="March 31st, 2021"
         ></Schedule>
+        <img src={map} alt="Paridisus Map"></img>
       </a.div>}
       {flipped && <a.div
         style={{
