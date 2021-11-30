@@ -18,7 +18,7 @@ function App() {
         <Schedule
           events={[
             { time: "6:00:00", description: "Cocktail Hour" },
-            { time: "7:00:00", description: "Rehearsal Dinner Begins" },
+            { time: "7:00:00", description: "Rehearsal Dinner" },
             { time: "7:30:00", description: "Food is served" },
             { time: "10:00:00", description: "End of Dinner" },
           ]}
