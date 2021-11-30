@@ -25,7 +25,6 @@ function App() {
           ]}
           date="March 31st, 2021"
         ></Schedule>
-        <img src={map} alt="Paridisus Map"></img>
       </a.div>}
       {flipped && <a.div
         style={{
