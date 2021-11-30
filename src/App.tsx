@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./App.css";
 import Schedule from "./Schedule";
 import { useSpring, a } from "@react-spring/web";
-import map from './map.jpeg'
 
 function App() {
   // Flipped indicates that the day is the wedding and not the rehearsal dinner
@@ -18,13 +17,17 @@ function App() {
       {!flipped && <a.div style={{ opacity: opacity.to(o => 1 - o), transform }}>
         <Schedule
           events={[
-            { time: "6:00:00", description: "Cocktail Hour" },
-            { time: "7:00:00", description: "Rehearsal Dinner" },
-            { time: "7:30:00", description: "Food is served" },
-            { time: "10:00:00", description: "End of Dinner" },
+            { time: "6:00", description: "Cocktail Hour" },
+            { time: "7:00", description: "Rehearsal Dinner" },
+            { time: "7:30", description: "Food is served" },
+            { time: "10:00", description: "End of Dinner" },
           ]}
           date="March 31st, 2021"
         ></Schedule>
+
+        <div style={{position: "fixed", textAlign: "center", width: "100%", color: "grey", bottom:0}}>
+          If you need any help please contact: <a href="tel:3014488021">301-448-8021</a>
+        </div>
       </a.div>}
       {flipped && <a.div
         style={{
@@ -35,20 +38,23 @@ function App() {
       >
         <Schedule
           events={[
-            { time: "5:00:00", description: "Ceremony" },
-            { time: "5:45:00", description: "Cocktails and Canapes" },
-            { time: "6:50:00", description: "Introductions" },
-            { time: "7:00:00", description: "We dance" },
-            { time: "7:15:00", description: "We dine" },
-            { time: "7:50:00", description: "We speak" },
-            { time: "8:20:00", description: "We cut cake" },
-            { time: "8:45:00", description: "We party" },
-            { time: "11:00:00", description: "First Bus Home" },
-            { time: "12:00:00", description: "Second Bus Home" },
-            { time: "2:00:00", description: "Last Bus Home" },
+            { time: "5:00", description: "Ceremony" },
+            { time: "5:45", description: "Cocktails and Canapes" },
+            { time: "6:50", description: "Introductions" },
+            { time: "7:00", description: "We dance" },
+            { time: "7:15", description: "We dine" },
+            { time: "7:50", description: "We speak" },
+            { time: "8:20", description: "We cut cake" },
+            { time: "8:45", description: "We party" },
+            { time: "11:00", description: "First Bus Home" },
+            { time: "12:00", description: "Second Bus Home" },
+            { time: "2:00", description: "Last Bus Home" },
           ]}
           date="April 1st, 2021"
         ></Schedule>
+        <div style={{position: "fixed", textAlign: "center", width: "100%", color: "grey", bottom:0}}>
+          If you need any help please contact: <a href="tel:3014488021">301-448-8021</a>
+        </div>
       </a.div>
 }
     </div>
