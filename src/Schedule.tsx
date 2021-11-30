@@ -7,15 +7,16 @@ type WeddingEvent = {
 
 type ScheduleProps = {
   events: WeddingEvent[];
+  date: string;
 };
 
-const Schedule = ({ events }: ScheduleProps) => {
+const Schedule = ({ events, date }: ScheduleProps) => {
   return <>
     <div className="title">Order of Events</div>
     <div className="wedding_info">
         <span>Jenny & Sam</span>
         <div style={{borderLeft: "2px solid black", marginRight: "4px", marginLeft: "4px"}}></div>
-        <span>March 31st, 2021</span>
+        <span>{date}</span>
     </div>
 
     {events.map((e) => (

@@ -19,6 +19,7 @@ function App() {
           events={[
             { time: "4:00:00", description: "Rehearsal Dinner at the pool" },
           ]}
+          date="March 31st, 2021"
         ></Schedule>
       </a.div>}
       {flipped && <a.div
@@ -30,6 +31,7 @@ function App() {
       >
         <Schedule
           events={[{ time: "5:00:00", description: "Wedding Begins" }]}
+          date="April 1st, 2021"
         ></Schedule>
       </a.div>
 }
