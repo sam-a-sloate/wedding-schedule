@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wedding-schedule/static/css/main.16251651.chunk.css",
+    "main.css": "/wedding-schedule/static/css/main.f60335ad.chunk.css",
     "main.js": "/wedding-schedule/static/js/main.f36fe411.chunk.js",
     "main.js.map": "/wedding-schedule/static/js/main.f36fe411.chunk.js.map",
     "runtime-main.js": "/wedding-schedule/static/js/runtime-main.69aa80b0.js",
@@ -10,13 +10,13 @@
     "static/js/3.b684ada6.chunk.js": "/wedding-schedule/static/js/3.b684ada6.chunk.js",
     "static/js/3.b684ada6.chunk.js.map": "/wedding-schedule/static/js/3.b684ada6.chunk.js.map",
     "index.html": "/wedding-schedule/index.html",
-    "static/css/main.16251651.chunk.css.map": "/wedding-schedule/static/css/main.16251651.chunk.css.map",
+    "static/css/main.f60335ad.chunk.css.map": "/wedding-schedule/static/css/main.f60335ad.chunk.css.map",
     "static/js/2.45ad611a.chunk.js.LICENSE.txt": "/wedding-schedule/static/js/2.45ad611a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.69aa80b0.js",
     "static/js/2.45ad611a.chunk.js",
-    "static/css/main.16251651.chunk.css",
+    "static/css/main.f60335ad.chunk.css",
     "static/js/main.f36fe411.chunk.js"
   ]
 }
