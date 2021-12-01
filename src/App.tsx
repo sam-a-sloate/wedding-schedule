@@ -25,7 +25,7 @@ function App() {
           date="March 31st, 2021"
         ></Schedule>
 
-        <div style={{position: "fixed", textAlign: "center", width: "100%", color: "grey", bottom:0}}>
+        <div style={{marginTop: "3em", textAlign: "center", width: "100%", color: "grey", bottom:0}}>
           If you need any help please contact: <a href="tel:3014488021">301-448-8021</a>
         </div>
       </a.div>}
@@ -52,7 +52,7 @@ function App() {
           ]}
           date="April 1st, 2021"
         ></Schedule>
-        <div style={{position: "fixed", textAlign: "center", width: "100%", color: "grey", bottom:0}}>
+        <div style={{marginTop: "3em", textAlign: "center", width: "100%", color: "grey", bottom:0}}>
           If you need any help please contact: <a href="tel:3014488021">301-448-8021</a>
         </div>
       </a.div>
